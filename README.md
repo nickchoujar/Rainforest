@@ -17,7 +17,7 @@ In detail, the following tasks can be performed from a centralised location:
 - Check the status of each repository, scanning for dirty working copies or
   gems which should be released.
 
-[Local Git Repos]: http://bundler.io/v1.5/git.html
+[Local Git Repos]: https://bundler.io/guides/git.html
 
 
 ## Usage
@@ -72,20 +72,7 @@ $ rake -T
 
 ### Release Configuration
 
-If you're using Rainforest to do releases on any of the CocoaPods gems,
-there are a few extra setup steps.
-
-- Create a `.github_access_token` in the root of this repo containing a GitHub
-  access token. This is needed to create GitHub releases via the GitHub API.
-- Create an `options.yml` file specifying the locations of `Strata`, `Bundler`,
-  and `RubyGems`. For example:
-
-  ```yaml
-  strata: ~/Development/Strata
-  bundler: ~/Development/OpenSource/bundler
-  rubygems: ~/Development/OpenSource/rubygems
-  ```
-
+See [RELEASING.md](RELEASING.md).
 
 ## Collaborate
 
@@ -94,7 +81,7 @@ All CocoaPods development happens on GitHub; there is a repository for
 specs](https://github.com/CocoaPods/Specs). Contributing patches or Pods is
 really easy and gratifying.
 
-Follow [@CocoaPods](http://twitter.com/CocoaPods) to get up to date
+Follow [@CocoaPods](https://twitter.com/CocoaPods) to get up to date
 information about what's going on in the CocoaPods world.
 
 ## License
